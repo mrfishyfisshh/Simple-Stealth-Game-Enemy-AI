@@ -1,2 +1,3 @@
 # Simple-Stealth-Game-Enemy-AI
 A rudimentary enemy AI for stealth game mechanics.
+I built a C++ blueprint for an enemy AI to use in my game in progress. He is a very simple AI designed to chase the player upon gaining line of sight and move to the last place he saw the player upon breaking line of sight. When he reaches the last known position, he will investigate 2 random points in the vicinity of the last known player position. If he fails to locate the player during his investigation, he will abandon pursuit and return to his post until he sees the player again.
